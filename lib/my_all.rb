@@ -9,4 +9,10 @@ block_return_values
     i = i + 1
     #i += 1 does the same thing
   end
+
+if block_return_values.include?(false)
+    false
+  else
+    true
+  end
 end
